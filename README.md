@@ -11,20 +11,11 @@ This project includes following files,
 								F. Perform K-Fold cross validation on original model
 								G. Perform K-Fold cross validation on re-trained model
 								H. Displays the evaluation results
-2. Report : In addition to part 1,this file explaines, 
-								A. Detecting and Eliminating Bias
-								B. K-Fold Cross-Validation
 								
-
-3. Trained Model : We have 4 trained models as shown below,
-								1.FaceMaskClassifierFirst.pth : Trained model for original data set used in submission 1
-								2.FaceMaskClassifierSecond.pth : Trained model for updated data set used for bias elimination
-								3.FaceMaskClassifierKFoldFirst.pth : Trained model for KFold cross validation on original model
-								4.FaceMaskClassifierKFoldSecond.pth: Trained model for KFold cross validation on re-trained model
 
    Models are available on github. Github invite has been shared with the TA. The models are trained using GPU. To run the models ensure that the runtime environment has GPU enabled. To run on cpu, use map_location ='cpu' in torch load.
 
-5. Dataset : We have used dataset mentioned below,
+2. Dataset : We have used dataset mentioned below,
 				A. Person with Mask: https://www.kaggle.com/omkargurav/face-mask-dataset
 				B. Person without Mask: https://www.kaggle.com/omkargurav/face-mask-dataset, https://www.kaggle.com/cashutosh/gender-classification-dataset
 				C. Not a person: https://www.kaggle.com/prasunroy/natural-images (excluding non person images)
